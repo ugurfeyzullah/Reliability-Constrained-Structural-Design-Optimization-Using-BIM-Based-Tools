@@ -31,12 +31,14 @@ https://github.com/ugurfeyzullah/Intelligent-Optimization-of-Steel-Structures-Th
 - 
 ## Methodology
 
-1. **Parametric Truss Modeling** using Dynamo.
-2. **FEM and Reliability Analysis** using Python and PyNiteFEA.
-3. **Optimization** using metaheuristic algorithms (DE) integrated with the PyMoo library.
-4. **Seamless Transfer to BIM** environments like Revit and RSA for further structural evaluation.
+The workflow encompasses these main phases:
+1.	Create parametric trusses by using VP ;
+2.	Create a FEM model to perform structural analyses;
+3.	Perform reliability analysis;
+4.	Change the design variables with MA and perform multiple reliability analysis until design criteria are fulfilled;
+5.	Import optimized model to the BIM environment for further adjustments.
 
-
+   ![Comprehensive workflow of the VP -Based RBDO methodology](https://github.com/user-attachments/assets/ca3fa8cb-f302-40fe-804b-a5e95351fc44)
 
 
 
@@ -53,29 +55,25 @@ https://github.com/ugurfeyzullah/Intelligent-Optimization-of-Steel-Structures-Th
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/repository-name.git
+    git clone https://github.com/ugurfeyzullah/Reliability-Constrained-Structural-Design-Optimization-Using-BIM-Based-Tools.git
     ```
 2. Install necessary dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-3. Run the optimization model:
-    ```bash
-    python optimize_model.py
-    ```
+3. Run the optimization script on Dynamo:
+
 
 ## Usage
 
-1. **Model Preparation**: Start by preparing your parametric structural model in Dynamo.
-2. **Core node creation**: Create a core node from your parametric model by turning it into a custom node.
-3. **Optimization with Dynamo**: Open the provided Dynamo script to perform optimization. Adjust input parameters as needed for your specific structural design requirements and change the provided core node if needed.
-4. **Analysis in RSA**: Provided script will use RSA for detailed FEA as part of the optimization loop.
-5. **Evaluation**: Evaluate the optimization results, including stress, displacement, and weight.
-6. **Next generation creation**: Generate next generation by using metaheuristic algorithms. Python libraries or own generated python codes can be employed for this step. A sample code has been provided along with shared scripts.[Example Document](Optimization)
-7. **Revit interaction**: Optimized design can be imported Revit for further analyses by using provided optimization script. [Example Document](<Optimization with Revit integration>)
-8. **LCA and Cost Analysis**: Utilize Revit and Tally for environmental and economic assessment as presented in upcoming video.
-
-
+1. **Model Setup**: Create parametric structural models in Dynamo by defining node coordinates and connecting elements using a visual scripting approach.
+2. **Define Inputs**: Set design variables, including cross-sectional areas and nodal coordinates, in Dynamo. Adjust boundary conditions and material properties.
+3. **Structural Analysis**: Run Finite Element Analysis (FEM) using PyNite within the Dynamo environment to compute stress, displacement, and reliability metrics.
+4. **Optimization**: Use Differential Evolution (DE) from the PyMoo library to optimize design variables under reliability constraints.
+5. **Reliability Check**: Perform reliability analysis using the First-Order Reliability Method (FORM) with PyStra to calculate reliability indices and evaluate uncertainty in loads and material properties.
+6. **Model Integration**: Import optimized models to Autodesk Robot Structural Analysis (RSA) for further structural adjustments or analysis, then transfer the model back to Revit for final design adjustments.
+7. **Evaluation**: Assess the optimization and reliability results, ensuring the design satisfies safety, reliability, and cost-effectiveness criteria.
+8. **Data Handling**: Use custom Python functions to pull AISC section properties from Excel for batch analysis and structural simulations.
 
 
 
@@ -90,7 +88,7 @@ Contributions are welcome! If you have improvements or bug fixes, please follow 
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
 
-## Citation
+## Citation (To be updated)
 
 MDPI and ACS Style
 Yavan, F.; Maalek, R.; Toğan, V. Structural Optimization of Trusses in Building Information Modeling (BIM) Projects Using Visual Programming, Evolutionary Algorithms, and Life Cycle Assessment (LCA) Tools. Buildings 2024, 14, 1532. https://doi.org/10.3390/buildings14061532
