@@ -15,8 +15,9 @@ Conceptualization, R.M. and F.Y.; methodology, R.M., F.Y.; software, F.Y.; valid
 
 
 
+https://github.com/user-attachments/assets/736bcc0a-e529-4b28-b4a9-1628cf33e4ca
 
-https://github.com/ugurfeyzullah/Intelligent-Optimization-of-Steel-Structures-Through-Bim-Based-Visual-Programming-Platform-and-Tools/assets/149387821/1261d706-0fb2-452e-8fc2-2f25243358e3
+
 
 
 
