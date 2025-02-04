@@ -89,31 +89,19 @@ Contributions are welcome! If you have improvements or bug fixes, please follow 
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
 
-## Citation (To be updated)
+## Citation 
 
 MDPI and ACS Style
-Yavan, F.; Maalek, R.; Toğan, V. Structural Optimization of Trusses in Building Information Modeling (BIM) Projects Using Visual Programming, Evolutionary Algorithms, and Life Cycle Assessment (LCA) Tools. Buildings 2024, 14, 1532. https://doi.org/10.3390/buildings14061532
+Yavan, F.; Maalek, R. Reliability-Constrained Structural Design Optimization Using Visual Programming in Building Information Modeling (BIM) Projects. Appl. Sci. 2025, 15, 1025. https://doi.org/10.3390/app15031025
 
 AMA Style
-Yavan F, Maalek R, Toğan V. Structural Optimization of Trusses in Building Information Modeling (BIM) Projects Using Visual Programming, Evolutionary Algorithms, and Life Cycle Assessment (LCA) Tools. Buildings. 2024; 14(6):1532. https://doi.org/10.3390/buildings14061532
+Yavan F, Maalek R. Reliability-Constrained Structural Design Optimization Using Visual Programming in Building Information Modeling (BIM) Projects. Applied Sciences. 2025; 15(3):1025. https://doi.org/10.3390/app15031025
 
 Chicago/Turabian Style
-Yavan, Feyzullah, Reza Maalek, and Vedat Toğan. 2024. "Structural Optimization of Trusses in Building Information Modeling (BIM) Projects Using Visual Programming, Evolutionary Algorithms, and Life Cycle Assessment (LCA) Tools" Buildings 14, no. 6: 1532. https://doi.org/10.3390/buildings14061532
+Yavan, Feyzullah, and Reza Maalek. 2025. "Reliability-Constrained Structural Design Optimization Using Visual Programming in Building Information Modeling (BIM) Projects" Applied Sciences 15, no. 3: 1025. https://doi.org/10.3390/app15031025
 
-BibTex:
-
-@Article{buildings14061532,
-AUTHOR = {Yavan, Feyzullah and Maalek, Reza and Toğan, Vedat},
-TITLE = {Structural Optimization of Trusses in Building Information Modeling (BIM) Projects Using Visual Programming, Evolutionary Algorithms, and Life Cycle Assessment (LCA) Tools},
-JOURNAL = {Buildings},
-VOLUME = {14},
-YEAR = {2024},
-NUMBER = {6},
-ARTICLE-NUMBER = {1532},
-URL = {https://www.mdpi.com/2075-5309/14/6/1532},
-ISSN = {2075-5309},
-DOI = {10.3390/buildings14061532}
-}
+APA Style
+Yavan, F., & Maalek, R. (2025). Reliability-Constrained Structural Design Optimization Using Visual Programming in Building Information Modeling (BIM) Projects. Applied Sciences, 15(3), 1025. https://doi.org/10.3390/app15031025
 
 ## Contact
 
