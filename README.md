@@ -3,6 +3,10 @@
 ![Frame FORM](https://github.com/user-attachments/assets/9ebc2b38-acc3-43ac-b416-9d6a01969f5d)
 
 
+https://github.com/user-attachments/assets/43281fb5-8a8e-4af3-a86c-000ec4dfda34
+
+
+
 **Quick Links:** [Documentation](#features) / [Installation](#installation) / [Usage](#usage) / [Paper](https://www.preprints.org/manuscript/202404.0060/v1) /  [Citation](#citation) / [Contact](#contact)
 
 This project focuses on reliability-constrained structural design optimization by integrating Building Information Modeling (BIM) tools with artificial intelligence (AI) techniques. It aims to achieve a safe, economical, and sustainable design while handling real-world uncertainties in material properties and loads.
